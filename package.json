@@ -11,7 +11,10 @@
   },
   "author": "mayorandrew",
   "license": "MIT",
-  "repository": "",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/mayorandrew/annotator.git"
+  },
   "dependencies": {
     "adm-zip": "^0.4.7",
     "axios": "^0.16.1",
