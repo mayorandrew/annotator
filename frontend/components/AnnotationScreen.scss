@@ -1,0 +1,113 @@
+.annotation-screen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+
+  &__left {
+    flex-grow: 1;
+    position: relative;
+  }
+
+  &__right {
+    width: 20em;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    border-left: 1px solid #AAA;
+    padding: 1em 2em 1em 1em;
+  }
+
+  &__image {
+    position: absolute;
+  }
+}
+
+.annotation-controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 100%;
+
+  &__name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 2em;
+  }
+  &__name-name {
+    font-weight: bold;
+  }
+
+  &__image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__image-title {
+    text-align: center;
+    margin-bottom: 0.1em;
+  }
+  &__image-name {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1.4em;
+  }
+  &__image-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.5em;
+  }
+  &__image-number {
+    font-size: 1.2em;
+    margin: 0 1em;
+  }
+
+  &__message {
+    margin-top: 2em;
+  }
+
+  &__properties-delete {
+    margin: 1em auto;
+    display: block;
+  }
+
+  &__property {
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  &__property-name {
+    margin-bottom: 0.5em;
+  }
+
+  &__property-value {
+    width: 100%;
+
+    select {
+      width: 100%;
+      padding: 0;
+
+      option {
+        padding: 0.4em 0.5em;
+      }
+    }
+  }
+  &__space {
+    flex-grow: 1;
+    height: 1em;
+  }
+  &__finish {
+    text-align: center;
+  }
+}

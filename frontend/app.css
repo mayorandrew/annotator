@@ -1,0 +1,23 @@
+@import '~normalize.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body,#root {
+    width: 100%;
+    height: 100%;
+}
+
+.app {
+    width: 100%;
+    height: 100%;
+}
+
+input, button, select {
+    font-size: 1em;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+}

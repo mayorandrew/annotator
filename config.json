@@ -1,0 +1,7 @@
+{
+  "imagesetsFolder": "./public/imagesets",
+  "resultsFolder": "./public/results",
+  "zipsFolder": "./public/zips",
+  "port": 3000,
+  "openUrlOnStart": true
+}
